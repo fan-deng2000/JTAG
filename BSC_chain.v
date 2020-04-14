@@ -1,6 +1,6 @@
 module BSC_chain #(parameter width = 5)(inst_capture_clk, inst_update_clk, inst_capture_en,
                     inst_update_en, inst_shift_dr, inst_mode, inst_si,
-                    inst_data_in, data_out_inst, so_inst );
+                    inst_data_in, data_out_inst, so_inst);
 						  
   input inst_capture_clk; //clock for the capture flipflop
   input inst_update_clk;  // clock for the update flipflop
